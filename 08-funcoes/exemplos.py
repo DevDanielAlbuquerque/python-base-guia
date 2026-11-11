@@ -1,5 +1,5 @@
 # =============================================================
-# FUNÇÕES EM PYTHON — Do básico ao avançado
+# FUNÇÕES EM PYTHON — Exemplos comentados
 # Funções são blocos reutilizáveis de código definidos com def.
 # Permitem organizar, abstrair e reutilizar lógica.
 # =============================================================

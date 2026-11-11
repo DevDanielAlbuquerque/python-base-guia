@@ -1,5 +1,5 @@
 # =============================================================
-# DICIONÁRIOS EM PYTHON — Do básico ao avançado
+# DICIONÁRIOS EM PYTHON — Exemplos comentados
 # Dicionários armazenam pares chave → valor.
 # São MUTÁVEIS, ORDENADOS (Python 3.7+) e as chaves são ÚNICAS.
 # =============================================================

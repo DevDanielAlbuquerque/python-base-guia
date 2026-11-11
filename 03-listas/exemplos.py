@@ -1,5 +1,5 @@
 # =============================================================
-# LISTAS EM PYTHON — Do básico ao avançado
+# LISTAS EM PYTHON — Exemplos comentados
 # Listas são coleções ORDENADAS e MUTÁVEIS que aceitam qualquer tipo.
 # =============================================================
 

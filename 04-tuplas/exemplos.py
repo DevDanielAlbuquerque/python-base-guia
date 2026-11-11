@@ -1,5 +1,5 @@
 # =============================================================
-# TUPLAS EM PYTHON — Do básico ao avançado
+# TUPLAS EM PYTHON — Exemplos comentados
 # Tuplas são coleções ORDENADAS e IMUTÁVEIS.
 # Use quando os dados não devem ser alterados após a criação.
 # =============================================================
@@ -54,7 +54,7 @@ print(ultimo)     # 5
 
 # Troca de variáveis com tupla (sem variável auxiliar!)
 a, b = 10, 20
-a, b = b, a       # internamente Python cria uma tupla temporária
+a, b = b, a       # troca os valores; a implementação pode otimizar a operação
 print(a, b)       # 20 10
 
 
@@ -80,7 +80,7 @@ print(daniel)         # Pessoa(nome='Daniel', idade=25, cidade='SP')
 
 # -------------------------------------------------------------
 # EXEMPLO 5 — Tuplas como chaves de dicionário e retorno múltiplo — AVANÇADO
-# Por serem imutáveis, tuplas podem ser chaves de dicionário (listas não).
+# Tuplas podem ser chaves quando todos os seus elementos são hashable.
 # Funções usam tuplas implicitamente para retornar múltiplos valores.
 # -------------------------------------------------------------
 

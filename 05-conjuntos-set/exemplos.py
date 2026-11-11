@@ -1,5 +1,5 @@
 # =============================================================
-# CONJUNTOS (SET) EM PYTHON — Do básico ao avançado
+# CONJUNTOS (SET) EM PYTHON — Exemplos comentados
 # Sets são coleções NÃO ORDENADAS, SEM DUPLICATAS e MUTÁVEIS.
 # Ideais para eliminar repetições e realizar operações matemáticas de conjunto.
 # =============================================================
@@ -18,7 +18,7 @@ lista_com_repeticoes = ["python", "java", "python", "c", "java"]
 linguagens = set(lista_com_repeticoes)
 print(linguagens)   # ex: {'java', 'c', 'python'} — ordem pode variar
 
-# Verificar pertencimento (O(1) — muito eficiente)
+# Verificar pertencimento (O(1) em média; pior caso O(n))
 print("python" in linguagens)   # True
 print("ruby" in linguagens)     # False
 

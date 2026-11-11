@@ -1,5 +1,5 @@
 # =============================================================
-# STRINGS EM PYTHON — Do básico ao avançado
+# STRINGS EM PYTHON — Exemplos comentados
 # Strings são sequências IMUTÁVEIS de caracteres.
 # Python oferece dezenas de métodos nativos para manipulá-las.
 # =============================================================

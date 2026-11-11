@@ -16,6 +16,8 @@ import sqlite3
 # Nome do arquivo do banco de dados.
 # Se ele nao existir, o SQLite cria automaticamente.
 nome_banco = "meu_banco.db"
+conexao = None
+cursor = None
 
 
 # Bloco principal do programa.
@@ -126,5 +128,7 @@ if __name__ == "__main__":
 
     finally:
         # Fecha cursor e conexao no final, mesmo se ocorrer erro.
-        cursor.close()
-        conexao.close()
+        if cursor is not None:
+            cursor.close()
+        if conexao is not None:
+            conexao.close()
